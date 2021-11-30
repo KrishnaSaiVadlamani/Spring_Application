@@ -10,8 +10,8 @@ public interface CourseService {
 
     Course findCourseById(int theId) throws Exception;
 
-    public void saveCourse(Course theCourse);
+    void saveCourse(Course theCourse);
 
-    public void deleteCourseById(int theId);
+    void deleteCourseById(int theId);
 
 }
